@@ -29,6 +29,6 @@ label{
     
 }
 
-button{
-    background: rgb(115, 193, 196);
+.button{
+    background-color: rgb(73, 231, 231);
 }
