@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,48 +8,71 @@
     <title> Registro de clientes</title>
     <link rel="stylesheet" href="pago.css">
 </head>
+
 <body>
     <form>
-        
-           
-            
-      
+
+        <legend>Formulario de registro</legend>
+
+        <section class="section">
             <label>Apellido:
-            <input type="text"  name="Apellido" value=" Apellido" placeholder="Martinez"size="20"/>
-            
-    
-             Nombre:
-            <input type="text"  name="Nombre" value=" Nombre"placeholder="Maria" size="20"/>
+                <input type="text" name="Apellido" placeholder="Escribe tu apellido" />
             </label>
-            
-            
+
+
+            <label> Nombre:
+                <input type="text" name="Nombre" placeholder="Escribe tu nombre" />
+            </label>
+
+
+        </section>
+
+        <section class="section">
             <label>DNI:
-                <input type="number" name="DNI" value="DNI" placeholder="00000000" maxlength="8" />
-                 Email:
-                <input type="email" name="email" placeholder="mariamartinez@gmail.com" />
+                <input type="number" name="DNI" placeholder="Escribe tu DNI" maxlength="8" />
             </label>
-            <label>Contraseña:
-                <input type="password" name="Contraseña" size="25" />
-            </label>
-            <label>Repetir contraseña:
-                <input type="password" name="Contraseña" size="25" />
-            </label>
-            <label> Acepta términos condiciones:
-                <input type="checkbox" name="terminos"  checked="checked" /> 
+
+            <label>Email:
+                <input type="email" name="email" placeholder="Escribe tu mail" />
 
             </label>
-            
-             <label class="boton">
-            <input type="submit" value="REGISTRARSE">
-            </label>    
-          
-           
-        
-       
+
+        </section>
+
+
+        <section class="section">
+            <label>Contraseña:
+                <input type="password" name="Contraseña" />
+            </label>
+
+            <label>Repetir contraseña:
+                <input type="password" name="Contraseña" />
+            </label>
+
+        </section>
+
+        <section class="section">
+
+
+            <input type="checkbox" name="terminos" checked="checked" id="terminos" />
+            <label for="terminos"> Acepta términos condiciones</label>
+
+
+            <button> REGISTRARSE</button>
+
+        </section>
+
+
+
+
+
+
+
     </form>
-    <br/>
-    
-        
-    
+    <br />
+
+
+
 </body>
+
 </html>
